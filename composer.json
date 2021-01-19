@@ -11,6 +11,20 @@
             "email": "stof@notk.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "gedmo/doctrine-extensions",
+                "version": "3.0.99",
+                "source": {
+                    "url": "https://github.com/wulsic/DoctrineExtensions",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        }
+    ],
     "require": {
         "php": "^7.1.3 || ^8.0",
         "symfony/framework-bundle": "^4.3 || ^5.0",
